@@ -13,8 +13,8 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
  
 ### Specs :
 
-- [x] <b>BIOS</b>: version 300 2016/12/2 American Megatrends Inc,
-- [x] <b>Model Laptop</b>: Asus A455LF-WX039D Series
+- [x] <b>BIOS version</b>: 300 (2016/12/2) American Megatrends Inc,
+- [x] <b>Model Laptop/Notebook</b>: Asus A455LF-WX039D Series
 - [x] <b>Processor</b>: Intel Core i5-5200U (4) @ 2.2GHz up to 2.7Ghz Broadwell
 - [x] <b>Graphics</b>: Intel HD Graphics 5500 + NVidia Geforce 930M
 - [x] <b>RAM</b>: 8 GB 1600 MHz DDR3L
@@ -28,8 +28,8 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
  
 ### What's Working?
 
-- [x] Audio Conexant CX20751/2 with layout-id 21 + Internal Microphone (SSDT-CX207512.aml + Lilu.kext + AppleALC.kext)
 - [x] QE/CI Intel HD Graphics 5500 with VRAM 3,5 GB (3584 MB), Nvidia Geforce 930M (Disable)
+- [x] Audio Conexant CX20751/2 with layout-id 21 + Internal Microphone (SSDT-CX207512.aml + Lilu.kext + AppleALC.kext)
 - [x] Display brightness PNLF and Fn Keys (DSDT Patch Fix Graphics Broadwell from RehabMan Repo + ASUS DSDT Patches Brightness FN Key + AsusSMC.kext)
 - [x] Qualcomm Atheros AR9565 Wifi (ATH9KFixup.kext + ATH9KInjector.kext + Lilu.kext)
 - [x] LAN Ethernet Realtek RTL8111GU/8168GU/8411GU (RealtekRTL8111.kext)
@@ -63,7 +63,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 1. Don't use my patch [DSDT.aml and SSDT.aml](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/ACPI/patched) if you have different <b>ACPI Tables/BIOS Version and Model/Freq CPU PM</b>
 2. To get match on/off my BT, edit Info.plist BTFirmwareUploader.kext then add for Product ID (3423) and Vendor ID (13D3), But need sleep and wakeUp for load firmware bluetooth
 3. For Wifi Atheros AR9565 need boot args "-ath9565" to load ATH9KFixup.kext + ATH9KInjector.kext in /Library/Extensions
-4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist) just cosmetics, You need find another serial number for your mac, Use clover configurator
+4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
 5. And many more [apps](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/Tools/Apps)
 --------------------------------------------------------------------------------------------
  
