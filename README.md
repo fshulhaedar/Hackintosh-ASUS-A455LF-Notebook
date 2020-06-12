@@ -46,7 +46,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 ### Not Working?
 
 - Nvidia Geforce 930M (Optimus Tech) not supported by hackintosh
-- Bluetooth Atheros AR3012 v4.0 Controller, ID Vendor 0x13D3 (5075), ID Product 3423 (13347), Because no Firmware Key or Kext for this Chipset, Alternatively must be Load to Windows for Pairing or use Sleep and Wake Method with BTFirmwareUploader.kext (Edited Info.plist)
+- Bluetooth Atheros AR3012 v4.0 Controller, ID Vendor 0x13D3 (5075), ID Product 0x3423 (13347), Because no Firmware Key or Kext for this Chipset, Alternatively must be Load to Windows for Pairing or use Sleep and Wake Method with BTFirmwareUploader.kext (Edited Info.plist)
 - Etc..
 
 --------------------------------------------------------------------------------------------
