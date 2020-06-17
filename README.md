@@ -18,9 +18,9 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] <b>Processor</b>: Intel Core i5-5200U (4) @ 2.2GHz up to 2.7Ghz Broadwell
 - [x] <b>Graphics</b>: Intel HD Graphics 5500 + NVidia Geforce 930M
 - [x] <b>RAM</b>: 8 GB 1600 MHz DDR3L
-- [x] <b>HDD</b>: 500GB SATA HDD (GUID Partition Table)
+- [x] <b>HDD</b>: 500GB SATA HDD (GUID Partition Table) will be replaced to SSD
 - [x] <b>Audio</b>: Conexant CX20751/2
-- [x] <b>Wifi</b>: Qualcomm Atheros QCA9565/AR9565 Wireless Network Adapter
+- [x] <b>Wifi+BT</b>: Qualcomm Atheros QCA9565/AR9565 Wireless Network Adapter + AR3012 (Azurewave Tech)
 - [x] <b>Ethernet</b>: Realtek RTL8111GU/8168GU/8411GU PCI Express Gigabit Ethernet
 - [x] <b>Others</b>: USB3.0 + USB2.0 ports WebCam, FocalTech TouchPad PS/2, ports HDMI/VGA, Alcor Micro USB Card Reader, etc..
  
@@ -61,7 +61,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 ### Notes
 
 1. Don't use my patch [DSDT.aml and SSDT.aml](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/ACPI/patched) if you have different <b>ACPI Tables/BIOS Version and Model/Freq CPU PM</b>
-2. To get match on/off my BT, edit Info.plist BTFirmwareUploader.kext then add for Product ID (3423) and Vendor ID (13D3), But need Sleep and WakeUp for load firmware bluetooth
+2. To get match on/off my BT, edit Info.plist BTFirmwareUploader.kext then add for Product ID (3423) and Vendor ID (13D3), But need Sleep and WakeUp for load firmware bluetooth, or use another method, follow [this tutorial](https://osxlatitude.com/forums/topic/10127-updated-nov-2017-fix-btfirmwareuploader-in-macos-high-sierra/)
 <img src="/Images/Sept-MacBook-Images-Bluetooth.png?raw=true" alt="macOS Mojave" align="center">
 3. For Wifi Atheros AR9565 need boot args "-ath9565" to load ATH9KFixup.kext + ATH9KInjector.kext in /Library/Extensions
 4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
