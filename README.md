@@ -61,7 +61,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 ### Notes
 
 1. Don't use my patch [DSDT.aml and SSDT.aml](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/ACPI/patched) if you have different <b>ACPI Tables/BIOS Version and Model/Freq CPU PM</b>
-2. To get match on/off my BT, edit Info.plist BTFirmwareUploader.kext then add for Product ID (3423) and Vendor ID (13D3), But need sleep and wakeUp for load firmware bluetooth
+2. To get match on/off my BT, edit Info.plist BTFirmwareUploader.kext then add for Product ID (3423) and Vendor ID (13D3), But need Sleep and WakeUp for load firmware bluetooth
 <img src="/Images/Sept-MacBook-Images-Bluetooth.png?raw=true" alt="macOS Mojave" align="center">
 3. For Wifi Atheros AR9565 need boot args "-ath9565" to load ATH9KFixup.kext + ATH9KInjector.kext in /Library/Extensions
 4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
