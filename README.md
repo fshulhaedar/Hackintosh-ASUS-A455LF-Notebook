@@ -2,7 +2,7 @@
 
 My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
  
-<img src="/Images/Sept-Ulchre-Macbook-Pro-Mojave.png?raw=true" alt="macOS Mojave" align="center">
+<img src="/Images/Sept-MacBook-Images.png?raw=true" alt="macOS Mojave" align="center">
  
 ### How to Get it?
 
