@@ -68,6 +68,8 @@
 	<dict>
 		<key>as.lvs1974.HibernationFixup</key>
 		<string>1.0</string>
+		<key>as.lvs1974.RTCMemoryFixup</key>
+		<string>1.0</string>
 		<key>as.vit9696.AppleALC</key>
 		<string>1.0</string>
 		<key>as.vit9696.Lilu</key>
@@ -92,6 +94,8 @@
 		<string>1.0</string>
 		<key>com.hieplpvip.AsusSMC</key>
 		<string>1.0.0</string>
+		<key>fish.goldfish64.DiskArbitrationFixup</key>
+		<string>1.0</string>
 		<key>fish.goldfish64.SystemProfilerMemoryFixup</key>
 		<string>1.0</string>
 		<key>org.vanilla.driver.CPUFriend</key>
