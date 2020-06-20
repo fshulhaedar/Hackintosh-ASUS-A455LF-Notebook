@@ -16,7 +16,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] <b>BIOS version</b>: 300 (2016/12/2) American Megatrends Inc,
 - [x] <b>Model Laptop/Notebook</b>: Asus A455LF-WX039D Series
 - [x] <b>Processor</b>: Intel Core i5-5200U (4) @ 2.2GHz up to 2.7Ghz Broadwell
-- [x] <b>Graphics</b>: Intel HD Graphics 5500 + NVidia Geforce 930M
+- [x] <b>Graphics</b>: Intel HD Graphics 5500 + Nvidia Geforce 930M
 - [x] <b>RAM</b>: 8 GB 1600 MHz DDR3L
 - [x] <b>HDD</b>: 500GB SATA HDD (GUID Partition Table) will be replaced to SSD
 - [x] <b>Audio</b>: Conexant CX20751/2
@@ -37,7 +37,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] Battery Indicator (DSDT RehabMan Battery Laptop Patch for ASUS + SMCBatteryManager.kext)
 - [x] WebCam for Facetime HD Camera Built-In (CustomPeripheral.kext)
 - [x] USB3.0 Port + Power/Speed (Rename XHCI to XHC in config.plist + SSDT-EC-UIAC.aml + USBInjectAll.kext + Remove Port Limit Kext to Patches in config.plist)
-- [x] Native Power Management CPU (SSDT.aml combine from [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh) Pike R. Alpha and [ssdt_data](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md) PMheart + CPUFriend.kext + CPUFriendDataProvider.kext)
+- [x] Native Power Management CPU (SSDT.aml combine from [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh) Pike R. Alpha and [ssdt_data](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md#data-combination) PMheart + CPUFriend.kext + CPUFriendDataProvider.kext)
 - [x] Apple Graphics Power Management (AGPM) edit Info.plist VirtualSMC.kext for Macbook Pro 12,1
 - [x] Etc..
  
@@ -67,7 +67,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 <img src="/Images/Sept-MacBook-Images-Bluetooth.png?raw=true" alt="macOS Mojave" align="center">
 
 3. For Wifi Atheros AR9565 need boot args "-ath9565" to load ATH9KFixup.kext + ATH9KInjector.kext in /Library/Extensions
-4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
+4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist#L1129) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
 5. And many more [apps](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/Tools/Apps)
 --------------------------------------------------------------------------------------------
  
