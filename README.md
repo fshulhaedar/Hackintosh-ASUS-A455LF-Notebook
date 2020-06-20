@@ -37,7 +37,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] Battery Indicator (DSDT RehabMan Battery Laptop Patch for ASUS + SMCBatteryManager.kext)
 - [x] WebCam for Facetime HD Camera Built-In (CustomPeripheral.kext)
 - [x] USB3.0 Port + Power/Speed (Rename XHCI to XHC in config.plist + SSDT-EC-UIAC.aml + USBInjectAll.kext + Remove Port Limit Kext to Patches in config.plist)
-- [x] Native Power Management CPU (SSDT.aml + CPUFriend.kext + CPUFriendDataProvider.kext)
+- [x] Native Power Management CPU (SSDT.aml combine from [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh) Pike R. Alpha and [ssdt_data](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md) PMheart + CPUFriend.kext + CPUFriendDataProvider.kext)
 - [x] Apple Graphics Power Management (AGPM) edit Info.plist VirtualSMC.kext for Macbook Pro 12,1
 - [x] Etc..
  
