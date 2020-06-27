@@ -787,7 +787,7 @@
 			<array>
 				<dict>
 					<key>Hidden</key>
-					<false/>
+					<true/>
 					<key>Type</key>
 					<string>OSXRecovery</string>
 				</dict>
