@@ -490,7 +490,27 @@
 			<false/>
 		</dict>
 		<key>SortedOrder</key>
-		<array/>
+		<array>
+			<string>DSDT.aml</string>
+			<string>ECDT.aml</string>
+			<string>SSDT-CX207512.aml</string>
+			<string>SSDT-EC-UIAC.aml</string>
+			<string>SSDT-ESEL.aml</string>
+			<string>SSDT-FAN.aml</string>
+			<string>SSDT-GPRW.aml</string>
+			<string>SSDT-LANCPRW.aml</string>
+			<string>SSDT-MEM2.aml</string>
+			<string>SSDT-PMC.aml</string>
+			<string>SSDT-PTSWAK.aml</string>
+			<string>SSDT-RMCF.aml</string>
+			<string>SSDT-RMDT.aml</string>
+			<string>SSDT-STAS.aml</string>
+			<string>SSDT-UPRW.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-XSEL.aml</string>
+			<string>SSDT-XWAK.aml</string>
+			<string>SSDT.aml</string>
+		</array>
 		<key>smartUPS</key>
 		<false/>
 	</dict>
