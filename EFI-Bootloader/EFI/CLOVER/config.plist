@@ -517,7 +517,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -no_compat_check -lilubeta -ath9565</string>
+		<string>dart=0 -no_compat_check -ath9565</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
