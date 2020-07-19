@@ -13,7 +13,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
  
 ### Specs :
 
-- [x] <b>BIOS version</b>: 300 (2016/12/2) American Megatrends Inc,
+- [x] <b>BIOS</b>: v300 (2016/12/2) American Megatrends Inc,
 - [x] <b>Model Laptop/Notebook</b>: Asus A455LF-WX039D Series
 - [x] <b>Processor</b>: Intel Core i5-5200U (4) @ 2.2GHz up to 2.7Ghz Broadwell
 - [x] <b>Graphics</b>: Intel HD Graphics 5500 + Nvidia Geforce 930M
@@ -23,6 +23,20 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 - [x] <b>Wifi+BT</b>: Qualcomm Atheros QCA9565/AR9565 Wireless Network Adapter + AR3012 (Azurewave Tech)
 - [x] <b>Ethernet</b>: Realtek RTL8111GU/8168GU/8411GU PCI Express Gigabit Ethernet
 - [x] <b>Others</b>: USB3.0 + USB2.0 ports WebCam, FocalTech TouchPad PS/2, ports HDMI/VGA, Alcor Micro USB Card Reader, etc..
+
+--------------------------------------------------------------------------------------------
+
+**BIOS Configuration**
+
+Bios Config | Setting 
+:---:| :---:
+Security -> Secure Boot | Disabled
+Intel Virtualization    | Enabled OK / Disabled if you have issues
+VT-d | Disabled / Enabled with boot-args "dart=0"
+Graphics Configuration -> DVMT Pre-Allocation | 64M / default 32M but need pre-alloc patches
+USB Configuration -> XHCI Pre-Boot Mode | Smart Auto / Enabled
+SATA Mode | AHCI
+Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
  
 --------------------------------------------------------------------------------------------
  
