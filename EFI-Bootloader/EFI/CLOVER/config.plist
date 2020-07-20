@@ -876,7 +876,7 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>#Number of KextsToPatch</key>
-		<integer>12</integer>
+		<integer>10</integer>
 		<key>#Number of Patchs To Kernel</key>
 		<integer>2</integer>
 		<key>AppleIntelCPUPM</key>
@@ -956,22 +956,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable board-id check to prevent no signal © lvs1974, Pike R. Alpha, vit9696</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ugUAAAA=
-				</data>
-				<key>Name</key>
-				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
-				<key>Replace</key>
-				<data>
-				ugAAAAA=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Disabled</key>
 				<false/>
@@ -984,22 +968,6 @@
 				<key>Replace</key>
 				<data>
 				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AEFQUExFIFNTRAA=
-				</data>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				AAAAAAAAAAAAAAA=
 				</data>
 			</dict>
 			<dict>
