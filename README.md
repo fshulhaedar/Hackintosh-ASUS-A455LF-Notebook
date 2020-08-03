@@ -26,7 +26,7 @@ My EFI Folder for ASUS-A455LF-WX039D Series with Clover Legacy or UEFI
 
 --------------------------------------------------------------------------------------------
 
-**BIOS Configuration**
+### BIOS Configuration
 
 Bios Config | Setting 
 :---:| :---:
@@ -81,7 +81,7 @@ Boot -> Launch CSM | Enabled (For Reducing boot graphics glitch)
 <img src="/Images/Sept-MacBook-Images-Bluetooth.png?raw=true" alt="macOS Mojave" align="center">
 
 3. For Wifi Atheros AR9565 need boot args "-ath9565" to load ATH9KFixup.kext + ATH9KInjector.kext in /Library/Extensions
-4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist#L1149) just cosmetics, You need find another serial number for your mac, Use Clover Configurator
+4. "XX-MASKED-XX" in My [config.plist](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/EFI-Bootloader/EFI/CLOVER/config.plist#L1020) just cosmetics, You need regenerate of them or find another serial number for your mac, Use Clover Configurator
 5. And many more [apps](https://github.com/asepms92/Hackintosh-ASUS-A455LF-Notebook/tree/master/Tools/Apps)
 --------------------------------------------------------------------------------------------
  
